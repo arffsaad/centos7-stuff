@@ -1,6 +1,7 @@
 #!/bin/bash
 # Add repos
 
+yum -y install wget curl epel-release
 yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 yum install -y https://rpms.remirepo.net/enterprise/remi-release-7.rpm
 
