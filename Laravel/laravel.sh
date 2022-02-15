@@ -24,5 +24,6 @@ curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 echo "Installing Laravel..."
 composer global require laravel/installer
+composer global require laravel/laravel
 
 echo "Laravel Installed. Use 'composer create-project laravel/laravel projectname' to create your project!"
