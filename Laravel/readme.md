@@ -7,3 +7,7 @@ Includes:
 Does not include:
 - SQL server
 - nginx/apache
+
+usage:
+- chmod u+x laravel.sh
+- sudo ./laravel.sh
